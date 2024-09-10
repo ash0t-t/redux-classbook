@@ -1,0 +1,23 @@
+.table {
+  width: 800px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin: 40px auto;
+}
+
+.table tr,
+.table th,
+.table td {
+  border: 1px solid gray;
+  text-align: center;
+}
+.table th,
+.table td {
+  padding: 5px;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  width: 10px;
+}
